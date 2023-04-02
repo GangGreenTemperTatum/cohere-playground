@@ -31,8 +31,8 @@ examples=[
   Example("How do I delete my account?", "Cancelling coverage")
 ]
 
-inputs=[" I want to change my password”,
-        "Does my policy cover prescription medication?"
+inputs=[" I want to change my password",  
+        "Does my policy cover prescription medication",  
         ]
 
 response = co.classify(  
@@ -40,4 +40,4 @@ response = co.classify(
     inputs=inputs,  
     examples=examples)
 
-  print(response.classifications)
+print(response.classifications)
