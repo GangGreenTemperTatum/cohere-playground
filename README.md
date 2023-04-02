@@ -18,6 +18,8 @@ api_key = os.environ["CO_KEY"]
 co = cohere.Client(api_key)
 ```
 
+----------------------------------------
+
 2)
 - Create an `.env` file in the virtual project with line `export CO_KEY="YOUR_API_KEY_HERE"` and import the `os` module
 - Call the `os.environ` as a variable = `co_client`
@@ -31,6 +33,8 @@ co_client = cohere.Client(f'{os.environ["CO_KEY"]}')
 CHUNK_SIZE = 1024
 OUTPUT_BASE_DIR = "./"
 ```
+
+----------------------------------------
 
 3)
 - Create an `.env` file in the virtual project with line `export CO_KEY="YOUR_API_KEY_HERE"` and import the `os` module
