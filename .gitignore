@@ -1,0 +1,18 @@
+# Ignore .env
+.env/
+.env*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Git directory and files
+!.gitignore
+.git*
