@@ -20,7 +20,7 @@ Pygments==2.15.0
 pyrsistent==0.19.3
 python-box==6.1.0
 python-dotenv==1.0.0
-requests==2.31.0
+requests==2.32.2
 rich==12.6.0
 rich-click==1.6.1
 six==1.16.0
